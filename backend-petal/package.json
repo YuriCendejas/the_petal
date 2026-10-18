@@ -11,8 +11,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": " node backend-petal/src/index.js",
-    "dev": "nodemon backend-petal/src/index.js"
+    "start": " node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
