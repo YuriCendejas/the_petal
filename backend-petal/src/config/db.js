@@ -1,5 +1,5 @@
 
-import mongoose from "moongoose";
+import mongoose from "mongoose";
 //talks to mongodb
 
 
@@ -8,7 +8,7 @@ const connectDB = async () => {
 console.log("MongoDB connected!");
     } catch (error) {
         console.error("MongoDB connection failed !",error.message);
-        process.exit(1);
+        process.exit(1); // 1 means something went wrong and 0 means everythings fine and process.exit(1) shuts down the program
 
     }
 };
