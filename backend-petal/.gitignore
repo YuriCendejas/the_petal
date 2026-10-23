@@ -2,3 +2,4 @@
 node_modules/
 .Ds_Store
 *.log
+node_modules
