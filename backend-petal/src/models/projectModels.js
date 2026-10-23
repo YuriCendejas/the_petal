@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
  
-const userSchema = new mongoose.Schema({ // the structure for the project
+const projectSchema = new mongoose.Schema({ // the structure for the project
     title:{
     required:true,
     type:String
@@ -19,4 +19,4 @@ const userSchema = new mongoose.Schema({ // the structure for the project
     {timestamps:true} // makes created At and update At automatically
 
 );
-export default mongoose.model("projects",userSchema); 
+export default mongoose.model("projects",projectSchema); 
