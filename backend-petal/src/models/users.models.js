@@ -15,8 +15,8 @@ const userSchema = new mongoose.Schema({ // the structure for the project
         enum:["pending","done"], // either this or the other but not both . 
         default:"pending" // that way they all start this way . 
     },
+},
+    {timestamps:true} // makes created At and update At automatically
 
-    {timestamps:true}
-
-});
+);
 export default mongoose.model("User",userSchema); 
