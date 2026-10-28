@@ -15,4 +15,42 @@ const createTask = async (req,res, next) =>{
     }
 };
 
-export {createTask};
+const soonestTask = async (req,res,next) => {
+    try {
+        const list = await projects.find().sort({deadline:1}); 
+        /* find() with no filter returns everything and ,
+        sort({deadline:1}) should give me the soonest */ 
+        return res.json(list);
+        
+    } catch (error) {
+        console.error(error);
+        next(error); 
+    }
+    };
+
+
+    const complete = async (req,res,next) => { // when you send PATCH using :id/complete
+        try {
+            
+            const project = await projects.findById(req.params.id); // :id in the route is supposed to become req.params.id
+
+            if (!project){
+                return res.status(404).json({message:"task not found !"});
+            }
+
+            project.status = "done"; // some pending to done
+            project.completeAt = new Date(); // saying when it was completed on
+            await project.save(); 
+            return res.json(project);
+
+
+        } catch (error) {
+            console.error(error);
+            next(error);
+        }
+        
+    };
+
+
+
+export {createTask,soonestTask,complete};
