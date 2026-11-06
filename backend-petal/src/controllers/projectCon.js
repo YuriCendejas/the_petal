@@ -48,9 +48,24 @@ const soonestTask = async (req,res,next) => {
             console.error(error);
             next(error);
         }
-        
+    };
+
+    const deleteTask = async (req,res,next) => {
+        try {
+            const project = await projects.findByIdAndDelete(req.params.id);
+
+            if(!project){
+                return res.status(404).json({message:"Not found!"});
+
+            }
+            
+            return res.json({message:"Deleted!",id: project._id}); // found the id you wanted to delete and showing it was deleted with "id:project._id"
+        } catch (error) {
+            console.error(error);
+            next(error); // it should say 404 with this next error
+        }
     };
 
 
 
-export {createTask,soonestTask,complete};
+export {createTask,soonestTask,complete,deleteTask};

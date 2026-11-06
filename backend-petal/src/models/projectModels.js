@@ -19,4 +19,4 @@ const projectSchema = new mongoose.Schema({ // the structure for the project
     {timestamps:true} // makes created At and update At automatically
 
 );
-export default mongoose.model("projects",projectSchema); 
+export default mongoose.model("projects",projectSchema);
