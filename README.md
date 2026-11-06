@@ -20,9 +20,14 @@ done so far 👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼
 <img width="2201" height="1115" alt="Screenshot 2026-10-28 at 9 48 34 PM" src="https://github.com/user-attachments/assets/ee727dd5-57c3-4d5d-871f-146cdb131541" />
 
 
+deleted👇🏼👇🏼👇🏼👇🏼
+<img width="2223" height="1124" alt="Screenshot 2026-11-05 at 9 14 22 PM" src="https://github.com/user-attachments/assets/f97e4716-f8e8-4824-b52a-602cbf54a47d" />
 
 
-
- needing to be deleted 👇🏼👇🏼👇🏼👇🏼
-
+ needing to be deleted (duplicates deleted one by one by ID )👇🏼👇🏼👇🏼👇🏼
 <img width="2226" height="1129" alt="Screenshot 2026-10-25 at 8 10 14 PM" src="https://github.com/user-attachments/assets/9c860082-fa65-46d7-90ab-a8681e3d7be7" />
+
+<img width="2071" height="1122" alt="Screenshot 2026-11-05 at 9 12 26 PM" src="https://github.com/user-attachments/assets/a577f24c-7c3f-4b5d-a426-0a4514e38576" />
+
+Done deleting👇🏼👇🏼👇🏼 
+<img width="2235" height="1100" alt="Screenshot 2026-11-05 at 9 15 56 PM" src="https://github.com/user-attachments/assets/d3498ec2-52c8-4519-b50f-fd908d192eeb" />
