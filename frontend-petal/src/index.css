@@ -1,0 +1,42 @@
+* { box-sizing: border-box; }                              /* padding doesn't make elements wider than you set */
+body { margin: 0; font-family: system-ui, sans-serif; background: #14111f; color: #f3eefc; min-height: 100vh; } /* no default margin, system font, dark purple background, light text */
+main { display: grid; grid-template-columns: minmax(280px, 420px) 1fr; gap: 32px; max-width: 1000px; margin: 0 auto; padding: 32px 20px; } /* two columns: flower left, panel right; centered */
+@media (max-width: 760px) { main { grid-template-columns: 1fr; } } /* on phones, stack into one column */
+
+.flower-card { text-align: center; }                       /* centers the text under the flower */
+.flower-svg { width: 100%; max-width: 360px; overflow: visible; } /* scales with the column; overflow visible lets falling petals draw outside the box */
+.stem { fill: none; stroke: #4caf6a; stroke-width: 8; stroke-linecap: round; } /* a line, not a filled shape: green, thick, round ends */
+.leaf { fill: #3b9a5a; }                                   /* darker green */
+.center { fill: #ffc94d; }                                 /* yellow center */
+.petal { fill: #ff7eb6; stroke: #d9548f; stroke-width: 2; } /* pink with a darker outline */
+
+.plant { transform-origin: 150px 400px; transition: transform 1.2s ease; } /* tilt around the bottom of the stem, animated smoothly */
+.plant.wilting { transform: rotate(6deg); }                /* slight lean when some petals are lost */
+.plant.dying { transform: rotate(16deg); }                 /* bigger lean when few petals remain */
+
+.petal-wrap { transform-box: fill-box; transform-origin: center; } /* spins each petal around its own center */
+.petal-wrap.gone { display: none; }                        /* petals lost before this visit are not drawn */
+.petal-wrap.falling { animation: fall 3.2s ease-in forwards; } /* newly lost petals play the fall once and stay at the end */
+@keyframes fall {                                          /* the animation steps, from 0% to 100% */
+  0%   { transform: translate(0, 0) rotate(0); opacity: 1; }                       /* starts in place */
+  40%  { transform: translate(30px, 120px) rotate(90deg); }                        /* drifts right and down while spinning */
+  70%  { transform: translate(-20px, 240px) rotate(200deg); opacity: 1; }         /* swings left, still visible */
+  100% { transform: translate(10px, 330px) rotate(320deg); opacity: 0; }         /* ends below the flower, faded out */
+}
+
+.panel h1 { margin: 0; }                                   /* remove the default space above the title */
+.sub { color: #b9aed1; margin-top: 4px; }                  /* softer subtitle color */
+form { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 8px; } /* inputs in a row that wraps on small screens */
+input, button { padding: 10px 12px; border-radius: 8px; border: 1px solid #3a3150; background: #201a31; color: inherit; font: inherit; } /* matching look; inherit uses the page's font and color */
+form input:first-child { flex: 1 1 180px; }                /* the title box grows to fill spare room */
+button { background: #ff7eb6; color: #1a1326; border: none; font-weight: 600; cursor: pointer; } /* pink buttons with dark text */
+.error { color: #ff8a8a; min-height: 1.2em; margin: 0 0 12px; } /* red text; min-height stops the layout jumping when a message appears */
+
+ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; } /* no bullets, rows spaced apart */
+li { display: flex; justify-content: space-between; align-items: center; gap: 12px; background: #201a31; padding: 12px 14px; border-radius: 10px; border-left: 4px solid #ffc94d; } /* card per project, yellow border = pending */
+li.done { border-color: #4caf6a; opacity: 0.7; }          /* green border and faded when finished */
+li.overdue { border-color: #ff5c5c; }                      /* red border when the deadline was missed */
+li small { display: block; color: #b9aed1; margin-top: 2px; } /* the date goes on its own line in a softer color */
+.actions { display: flex; gap: 6px; }                      /* Done and Delete side by side */
+.actions button { padding: 6px 10px; font-size: 0.85rem; } /* smaller buttons inside each row */
+.actions .del { background: #3a3150; color: #f3eefc; }     /* Delete is gray so it doesn't compete with Done */
