@@ -32,6 +32,20 @@ deleted👇🏼👇🏼👇🏼👇🏼
 Done deleting👇🏼👇🏼👇🏼 
 <img width="2235" height="1100" alt="Screenshot 2026-11-05 at 9 15 56 PM" src="https://github.com/user-attachments/assets/d3498ec2-52c8-4519-b50f-fd908d192eeb" />
 
-whats there 👇🏼👇🏼
-<img width="2197" height="1086" alt="Screenshot 2026-11-07 at 6 08 01 PM" src="https://github.com/user-attachments/assets/a30fdf04-45b3-4ba6-b706-bf6a9837fb15" />
+whats there 👇🏼👇🏼 (on postman and on the browser)
+<img width="2197" height="1086" alt="Screenshot 2026-11-07 at 6 08 01 PM" src="https://github.com/user-attachments/assets/a30fdf04-45b3-4ba6-b706-bf6a9837fb15" /> 
+<img width="2240" height="1260" alt="Screenshot 2026-11-07 at 6 16 10 PM" src="https://github.com/user-attachments/assets/7e5ab231-13cc-40ee-bad8-de0c07eacfa5" />
+
+
+
+
+
+
+
+
+
+
+
+
+
 
