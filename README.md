@@ -31,3 +31,31 @@ deleted👇🏼👇🏼👇🏼👇🏼
 
 Done deleting👇🏼👇🏼👇🏼 
 <img width="2235" height="1100" alt="Screenshot 2026-11-05 at 9 15 56 PM" src="https://github.com/user-attachments/assets/d3498ec2-52c8-4519-b50f-fd908d192eeb" />
+
+whats there 👇🏼👇🏼 (on postman and on the browser)
+<img width="2197" height="1086" alt="Screenshot 2026-11-07 at 6 08 01 PM" src="https://github.com/user-attachments/assets/a30fdf04-45b3-4ba6-b706-bf6a9837fb15" /> 
+<img width="2240" height="1260" alt="Screenshot 2026-11-07 at 6 16 10 PM" src="https://github.com/user-attachments/assets/7e5ab231-13cc-40ee-bad8-de0c07eacfa5" />
+
+
+
+video 👇🏼 with postman screenshot aftermath
+<img width="2209" height="1089" alt="Screenshot 2026-11-07 at 9 12 43 PM" src="https://github.com/user-attachments/assets/b80535c1-363b-464f-bd88-2abc1fe58ab1" />
+
+https://github.com/user-attachments/assets/611edaee-8146-43d2-a2bc-c907dfb3ca24
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
