@@ -38,6 +38,16 @@ whats there 👇🏼👇🏼 (on postman and on the browser)
 
 
 
+video 👇🏼 with postman screenshot aftermath
+<img width="2209" height="1089" alt="Screenshot 2026-11-07 at 9 12 43 PM" src="https://github.com/user-attachments/assets/b80535c1-363b-464f-bd88-2abc1fe58ab1" />
+
+https://github.com/user-attachments/assets/611edaee-8146-43d2-a2bc-c907dfb3ca24
+
+
+
+
+
+
 
 
 
